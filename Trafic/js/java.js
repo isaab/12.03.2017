@@ -1,23 +1,23 @@
-var r = document.getElementById('red');
-var y = document.getElementById('yellow');
-var g = document.getElementById('green');
+var red_ = document.getElementById('red');
+var yellow_ = document.getElementById('yellow');
+var green_ = document.getElementById('green');
 
 function red() {
-    r.style.backgroundColor = "#e21b1b";
-    y.style.backgroundColor = "#666666";
-    g.style.backgroundColor = "#666666";
+    red_.style.backgroundColor = "#e21b1b";
+    yellow_.style.backgroundColor = "#666666";
+    green_.style.backgroundColor = "#666666";
 }
 
 function yellow() {
-    r.style.backgroundColor = "#666666";
-    y.style.backgroundColor = "#ffcc26";
-    g.style.backgroundColor = "#666666";
+    red_.style.backgroundColor = "#666666";
+    yellow_.style.backgroundColor = "#ffcc26";
+    green_.style.backgroundColor = "#666666";
 }
 
 function green() {
-    r.style.backgroundColor = "#666666";
-    y.style.backgroundColor = "#666666";
-    g.style.backgroundColor = "#17d117";
+    red_.style.backgroundColor = "#666666";
+    yellow_.style.backgroundColor = "#666666";
+    green_.style.backgroundColor = "#17d117";
 }
 
 function change() {
@@ -25,4 +25,3 @@ function change() {
     setTimeout(yellow, 6000);
     setTimeout(green, 8000);
 }
-
